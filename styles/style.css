@@ -50,3 +50,26 @@ h3.p-text{
     letter-spacing: 2px;
 
 }
+
+@media(max-width:568px){
+    h1.p-text{
+        position: absolute;
+        top:27%;
+        width: 100%;
+        text-align: center;
+        color:#f4f4f4;
+        letter-spacing: 3px;
+    
+    }
+    
+    h3.p-text{
+        position: absolute;
+        top:50%;
+        width: 100%;
+        text-align: center;
+        color:#f4f4f4;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+}
