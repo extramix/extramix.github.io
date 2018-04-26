@@ -16,7 +16,8 @@
 }
 
 .full-page{
-    background-image: url(../img/img1.jpeg);
+    /* background-image: url(../img/img1.jpeg); */
+    background-image: url(http://extramix.github.io/img/img1.jpeg);
     min-height: 100%;
     background-position: center;
     background-size: cover;
