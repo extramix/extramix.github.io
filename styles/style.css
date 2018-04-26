@@ -1,6 +1,6 @@
-.navbar-brand{
+/* .navbar-brand{
     color: rgb(0, 0, 0) !important;
-}
+} */
 
 .p-indent{
     text-indent: 40px;
@@ -13,4 +13,34 @@
 
 .fa-inline{
     display: inline-block;
+}
+
+.full-page{
+    background-image: url(../img/img1.jpeg);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+h1.p-text{
+    position: absolute;
+    top:27%;
+    width: 100%;
+    text-align: center;
+    color:#f4f4f4;
+    letter-spacing: 3px;
+
+}
+
+h3.p-text{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+    color:#f4f4f4;
+    letter-spacing: 2px;
+
 }
