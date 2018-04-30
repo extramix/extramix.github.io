@@ -35,9 +35,14 @@
     background-attachment: fixed;
 }
 
- h1.p-text {
+
+/*  fullscreen section */
+div.container-fluid.fullscreen-text {
     position: absolute;
-    top:27%;
+    top: 20%;
+}
+
+div h1.p-text {
     width: 100%;
     text-align: center;
     color:#f4f4f4;
@@ -45,9 +50,7 @@
 
 }
 
- h3.p-text{
-    position: absolute;
-    top:40%;
+div h3.p-text{
     width: 100%;
     text-align: center;
     color:#f4f4f4;
@@ -55,13 +58,32 @@
 
 }
 
-#typed-text {
-    text-align: center;
-   
 
+
+/* bottom navbar */
+div.container-fluid.nav-bottom {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    
 }
 
-@media(max-width:568px){
+.nav-bottom li {
+    display: inline;
+    color: #f4f4f4;
+    background-color: rgba(27, 0, 255, 0.45);
+   border-style: solid;
+   border-color: #16128b7d;
+   padding: 10px 50px;
+   margin: 0 20px;
+}
+
+.nav-bottom li a {
+    color: #f4f4f4;
+    text-transform: uppercase;
+}
+
+/* @media(max-width:568px){
     h1.p-text{
         position: absolute;
         top:27%;
@@ -82,4 +104,4 @@
         font-size: 15px;
     }
 
-}
+} */
