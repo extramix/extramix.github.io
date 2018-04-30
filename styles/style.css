@@ -2,8 +2,12 @@
     color: rgb(0, 0, 0) !important;
 } */
 
-.navbar-margin {
-    margin-top: -20px;
+ .navbar-margin {
+    margin-top: -56px;
+} 
+
+.navbar.transparent{
+    background: rgba(0, 0, 0, 0.25);
 }
 
 .p-indent{
@@ -20,9 +24,9 @@
 }
 
 .full-page{
-    margin-top: -40px;
-    /* background-image: url(../img/img1.jpeg); */
-    background-image: url(https://extramix.github.io/img/img1.jpeg);
+/*     margin-top: -40px; */
+    background-image: url(../img/1.jpeg);
+    /* background-image: url(https://extramix.github.io/img/img1.jpeg); */
     min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -31,7 +35,7 @@
     background-attachment: fixed;
 }
 
-h1.p-text{
+ h1.p-text {
     position: absolute;
     top:27%;
     width: 100%;
@@ -41,13 +45,19 @@ h1.p-text{
 
 }
 
-h3.p-text{
+ h3.p-text{
     position: absolute;
     top:40%;
     width: 100%;
     text-align: center;
     color:#f4f4f4;
     letter-spacing: 2px;
+
+}
+
+#typed-text {
+    text-align: center;
+   
 
 }
 
