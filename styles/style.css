@@ -7,6 +7,18 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
+.port-img{
+    transition: all .2s ease-in-out;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
  .navbar-margin {
     margin-top: -56px;
 } 
@@ -89,9 +101,10 @@ div.container-fluid.nav-bottom {
     text-transform: uppercase;
 }
 
-/* .sec-1 {
-   
-} */
+.sec-extend {
+    min-height: 100%;
+}
+
 
 .sec-contacts .container h3 {
     color: #f4f4f4;
@@ -106,7 +119,7 @@ div.container-fluid.nav-bottom {
    /*  background-size: cover; */
     background-repeat: no-repeat;
 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 /* @media(max-width:568px){
