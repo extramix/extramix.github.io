@@ -5,6 +5,13 @@
 body {
     background-color: aliceblue;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: 0.05px;
+}
+
+p{
+    text-indent: 1.5em;
 }
 
 img {
