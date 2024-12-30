@@ -1,7 +1,0 @@
-//ABOUT SECTION
-
-Hello, my name is Sirapat Jariyanantakul. You can call me Mix. I'm 18 years old student
-who are interested in technology and coding. I started coding when I was 17 years old with C# language with Unity game engine.
-It was really difficult to digest new concepts into my head. But it turned to be fun after just 2 months of watching tutorials and started to build my own game.
-
-after that game project was done, I looked into web development area and I find myself enjoy it. So, I started learning HTML,CSS and JavaScript then continued to JavaScript framework like Angular.
